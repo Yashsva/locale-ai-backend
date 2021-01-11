@@ -1,6 +1,6 @@
 # Locale AI Backend Task
 The task is completed using NodeJS with Express framework and MVC design pattern.
-#### The project is hosted on heroku <a href="https://localeai-backend-task.herokuapp.com" target="_blank">here</a> but there are some issues, one can use POSTMAN with all functions working properly. 
+#### The project is hosted on heroku <a href="https://localeai-backend-task.herokuapp.com" target="_blank">here</a> but there are some bugs, one can use POSTMAN with all functions working properly. 
 ## Task Statement:
  XRides, delivers about a 200 rides per minute or 288,000 rides per day. Now, they want to send this data to your system via an API. Your task is to create this API and save the data into PostgreSQL. The API should be designed, keeping in mind the real-time streaming nature of data and the burst of requests at peak times of the day. The user of this API expects an acknowledgment that the data is accepted and a way to track if the request fails.
 ## Data description:
