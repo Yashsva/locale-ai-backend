@@ -1,0 +1,117 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Booking Detail</title>
+  </head>
+  <body>
+    <form action="/book/add_booking" method="POST">
+        <h3>
+            <b>Please do not leave any field EMPTY, it may give error</b>
+        </h3>
+      <div>
+        <label for="id">ID:</label>
+        <input type="number" name="id" id="id" required />
+      </div>
+      <div>
+        <label for="user_id">User ID:</label>
+        <input type="number" name="user_id" id="user_id" required />
+      </div>
+      <div>
+        <label for="vehicle_model_id">Vehicel Model ID:</label>
+        <input
+          type="number"
+          name="vehicle_model_id"
+          id="vehicle_model_id"
+          required
+        />
+      </div>
+      <div>
+        <label for="package_type_id">Package ID:</label>
+        <input
+          type="number"
+          name="package_type_id"
+          id="package_type_id"
+          required
+        />
+      </div>
+      <div>
+        <label for="travel_type_id">Travel Type ID:</label>
+        <input
+          type="number"
+          name="travel_type_id"
+          id="travel_type_id"
+          required
+        />
+      </div>
+      <div>
+        <label for="from_area_id">From Area ID:</label>
+        <input type="number" name="from_area_id" id="from_area_id" />
+      </div>
+      <div>
+        <label for="to_area_id">To Area ID:</label>
+        <input type="number" name="to_area_id" id="to_area_id" />
+      </div>
+      <div>
+        <label for="from_city_id">From City ID:</label>
+        <input type="number" name="from_city_id" id="from_city_id" required />
+      </div>
+      <div>
+        <label for="to_city_id">To City ID:</label>
+        <input type="number" name="to_city_id" id="to_city_id" />
+      </div>
+      <div>
+        <label for="from_date">From date:</label>
+        <input type="datetime-local" name="from_date" id="from_date" required />
+      </div>
+      <div>
+        <label for="to_date">To date:</label>
+        <input type="datetime-local" name="to_date" id="to_date" required />
+      </div>
+      <div>
+        <label for="online_booking">Online booked(true/false):</label>
+        <input type="text" name="online_booking" id="online_booking" />
+      </div>
+      <div>
+        <label for="mobile_site_booking">Mobile Site Booked(true/false):</label>
+        <input
+          type="text"
+          name="mobile_site_booking"
+          id="mobile_site_booking"
+        />
+      </div>
+      <div>
+        <label for="booking_created">Booking Created At:</label>
+        <input
+          type="datetime-local"
+          name="booking_created"
+          id="booking_created"
+          required
+        />
+      </div>
+      <div>
+        <label for="from_lat">From Lat:</label>
+        <input type="number" name="from_lat" id="from_lat" required />
+      </div>
+      <div>
+        <label for="from_long">From Long:</label>
+        <input type="number" name="from_long" id="from_long" required />
+      </div>
+      <div>
+        <label for="to_lat">To Lat:</label>
+        <input type="number" name="to_lat" id="to_lat" required />
+      </div>
+      <div>
+        <label for="to_long">To Long:</label>
+        <input type="number" name="to_long" id="to_long" required />
+      </div>
+      <div>
+        <label for="car_cancellation">Is Car Cancelled(true/false):</label>
+        <input type="text" name="car_cancellation" id="car_cancellation" />
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
