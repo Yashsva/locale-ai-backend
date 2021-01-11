@@ -27,7 +27,7 @@ packages<br/>
 ● Car_Cancellation - whether the booking was cancelled (1) or not (0) due to unavailability of a
 car.<br/>
 ## Installation
-#### Pre-Installation, following should be installed
+#### Pre-Installation, following should be installed before :
 1. Node.JS
 2. PostgreSQL
 3. Postman
